@@ -59,8 +59,7 @@ return y
 
 4. Path Finding: The findPath() method traces the path from a specific node to the root. It uses a recursive helper function to collect the path and returns it as a list of strings.
 
-○ Pseudocode:
-- Recursively traverse the tree and record each node on the path to the root.
+○ Pseudocode: - Recursively traverse the tree and record each node on the path to the root.
 - Reverse the path and return it as a list.
 
 5. Remove Operation: The remove() method deletes a node from the tree while maintaining both BST and heap properties. It does this by recursively searching for the node, and then either promoting a child node or rotating the tree to maintain the heap property.
