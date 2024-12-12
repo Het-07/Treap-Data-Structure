@@ -43,29 +43,40 @@ The find() method recursively searches for the key in the tree by traversing eit
 - If key is found, increment search count.
 - If search count is greater than the parent's, apply rotations to move node closer to root.
 
-3. Rotation Mechanism: To maintain the heap property, both left and right rotations are used:
+### 3. Rotation Mechanism:
+To maintain the heap property, both left and right rotations are used:
 
 - Right Rotation:
 y = node
+
 x = y.left
+
 y.left = x.right
+
 x.right = y
+
 return x
 
 - Left Rotation:
 x = node
+
 y = x.right
+
 x.right = y.left
+
 y.left = x
+
 return y
 
-4. Path Finding: The findPath() method traces the path from a specific node to the root. It uses a recursive helper function to collect the path and returns it as a list of strings.
+### 4. Path Finding:
+The findPath() method traces the path from a specific node to the root. It uses a recursive helper function to collect the path and returns it as a list of strings.
 
 #### Pseudocode: 
 - Recursively traverse the tree and record each node on the path to the root.
 - Reverse the path and return it as a list.
 
-5. Remove Operation: The remove() method deletes a node from the tree while maintaining both BST and heap properties. It does this by recursively searching for the node, and then either promoting a child node or rotating the tree to maintain the heap property.
+### 5. Remove Operation:
+The remove() method deletes a node from the tree while maintaining both BST and heap properties. It does this by recursively searching for the node, and then either promoting a child node or rotating the tree to maintain the heap property.
 
 #### Pseudocode:
 - Find the node to remove.
