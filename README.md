@@ -16,11 +16,15 @@ The SearchTree extends the Treap by introducing a dynamic re-balancing mechanism
 
 ## Output -
 <img width="501" alt="Screenshot 2024-12-12 at 3 42 03 PM" src="https://github.com/user-attachments/assets/651c741c-f5b1-4b78-8ec4-ad844352fcad" />
+
 Fig.1 - Sample Treap
 
 Final Output -
+
 <img width="912" alt="Screenshot 2024-10-08 at 8 56 58 PM" src="https://github.com/user-attachments/assets/cef0c5dc-60ae-4b87-b430-ba5a6cb4f362" />
+
 Fig.2 - Adding Nodes and Finding the Path of the Node.
 
 <img width="1009" alt="Screenshot 2024-10-08 at 8 57 03 PM" src="https://github.com/user-attachments/assets/add083a7-78b0-4007-a97e-db2986da71f3" />
+
 Fig.3 - After Adding Node and After Removing the Node
