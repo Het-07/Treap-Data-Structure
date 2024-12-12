@@ -47,25 +47,19 @@ The find() method recursively searches for the key in the tree by traversing eit
 To maintain the heap property, both left and right rotations are used:
 
 - Right Rotation:
+
 y = node
-
 x = y.left
-
 y.left = x.right
-
 x.right = y
-
 return x
 
 - Left Rotation:
+
 x = node
-
 y = x.right
-
 x.right = y.left
-
 y.left = x
-
 return y
 
 ### 4. Path Finding:
