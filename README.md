@@ -1,4 +1,4 @@
-# Treap-Data-Structure
+# Treap-Data-Structure (Software Development Concepts)
 This data structure is implemented using two primary data structures: Binary Search Tree(BST) and Heap.
 
 The Treap maintains the binary search tree property for efficient searching while also adhering to the max-heap property for balancing, based on an associated heap value. The result is a self-balancing tree where the nodes are ordered by their keys in BST order, but also by their heap values, creating a priority queue-like behavior.
